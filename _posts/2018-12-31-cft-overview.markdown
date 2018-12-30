@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Class Field Theory: Gameplan"
-categories: math class-field-theory gameplan
+categories: math.NT
+tags: class-field-theory gameplan
 ---
 It's been a long time since I write a blog of any sort. A big reason is the overhead blogging incurs. Now that circumstances have changed, I would like to give blogging a shot again.
 
