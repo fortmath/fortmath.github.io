@@ -39,3 +39,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Disqus
+disqus:
+  shortname: fortmath
