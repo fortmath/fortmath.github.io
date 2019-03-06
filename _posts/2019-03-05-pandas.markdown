@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Some general notes on data science"
+categories: stats
+tags: data-science pandas tooling
+---
+# Some common pandas command
+
+## Dataframe
+
+### Some methods
+Given a dataframe `df`,
+* `df.columns.values` tells you the column headers of your dataframe.
+* `df.info()` tells you metadata of the dataframe
+* `df.describe()` tells you basic statistics of each column (e.g. count, mean, {25,50,75}-percentile, etc).
+* `df.shape` = (row count, column count)
+
+* `df.head(n)` takes first $n$ rows
+* `df.tail(n)` takes last $n$ rows
+
+* `df[<column-name>]` returns a Series
+* `df[[<column-name-1>, <column-name-2>]]` returns a sub-dataframe
+
+### Some snippets
+* How many rows are there in a dataframe?
+> `df.shape` 
+> \# look at first number
+
+* How many entries in a column is null? 
+> `df[<column-name>].isnull().sum()`
+
+* Which columns have many nulls?
+> `df.isnull().sum()`
+> \# Returns number of nulls in each column.
+
+* How many unique values in each column?
+> `df.apply('nunique')`
+
+---
+# Some high-level steps in doing an analysis
+
+* Defining the problem
+* Acquire training/testing data
+* Exploring data; build a preliminary mental model of (features, model, model evaluation criteria)
+* Actually build out the model + evaluation
