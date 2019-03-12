@@ -8,6 +8,8 @@ tags: data-science
 Playing with the [Titanic data set from Kaggle](https://www.kaggle.com/c/titanic/data), and trying to jot down some thoughts here along the way. SOme resources I am using as guide posts/inspirations:
 
 * TDSS: [Titantic Data Science Solutions](https://www.kaggle.com/startupsci/titanic-data-science-solutions)
+* RS: [Raman Sah's analysis](https://github.com/ramansah/kaggle-titanic/blob/master/Analysis.ipynb)
+* HV: [Hal Varian's analysis](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf)
 
 ---
 
@@ -31,3 +33,6 @@ Playing with the [Titanic data set from Kaggle](https://www.kaggle.com/c/titanic
      * SVM assumes the decision boundary is linear. This is also unintuitive to me.
     What is the right way to approach this?
   * Zero cross validation :/
+
+---
+
